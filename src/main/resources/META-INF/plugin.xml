@@ -5,6 +5,6 @@
     <vendor>vv-boy</vendor>
 
     <extensions defaultExtensionNs="com.intellij">
-        <searchEverywhereContributor implementation="com.vv.test.services.Test$Factory"/>
+        <searchEverywhereContributor implementation="com.vv.test.services.FunctionSearch$Factory"/>
     </extensions>
 </idea-plugin>
