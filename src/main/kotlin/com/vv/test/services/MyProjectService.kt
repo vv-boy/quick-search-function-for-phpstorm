@@ -1,7 +1,7 @@
-package com.github.vvboy.quicksearchfunctionforphpstorm.services
+package com.vv.test.services
 
 import com.intellij.openapi.project.Project
-import com.github.vvboy.quicksearchfunctionforphpstorm.MyBundle
+import com.vv.test.MyBundle
 
 class MyProjectService(project: Project) {
 

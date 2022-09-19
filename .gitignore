@@ -1,4 +1,6 @@
 .gradle
 .idea
+.idea/*
 .qodana
 build
+.DS_Store

@@ -4,15 +4,7 @@
     <name>quick-search-function-for-phpstorm</name>
     <vendor>vv-boy</vendor>
 
-    <depends>com.intellij.modules.platform</depends>
-
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.vvboy.quicksearchfunctionforphpstorm.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.vvboy.quicksearchfunctionforphpstorm.services.MyProjectService"/>
+        <searchEverywhereContributor implementation="com.vv.test.services.FunctionSearchEverywhereContributor$Companion$Factory"/>
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.vvboy.quicksearchfunctionforphpstorm.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>

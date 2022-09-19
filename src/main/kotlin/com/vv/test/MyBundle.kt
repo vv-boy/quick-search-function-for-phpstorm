@@ -1,4 +1,4 @@
-package com.github.vvboy.quicksearchfunctionforphpstorm
+package com.vv.test
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

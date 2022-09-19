@@ -1,6 +1,6 @@
-package com.github.vvboy.quicksearchfunctionforphpstorm.services
+package com.vv.test.services
 
-import com.github.vvboy.quicksearchfunctionforphpstorm.MyBundle
+import com.vv.test.MyBundle
 
 class MyApplicationService {
 
